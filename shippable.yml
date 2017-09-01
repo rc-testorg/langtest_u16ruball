@@ -1,5 +1,4 @@
 language: ruby
-
 # Version number
 rvm:
   - 1.8.7
@@ -28,8 +27,7 @@ build:
   pre_ci_boot:
     image_name: drydock/u16ruball
     image_tag: master
-    pull: true  
-    
+    pull: true      
   ci:
     - ruby -v
    
