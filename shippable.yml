@@ -30,4 +30,3 @@ build:
     pull: true      
   ci:
     - ruby -v
-   
